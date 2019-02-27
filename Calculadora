@@ -1,0 +1,28 @@
+print("Suma")
+print("Resta")
+print("Multiplicacion")
+print("Division")
+
+operacion = (input("Selecciona opción: "))
+
+numero1 = int(input("Inserte primer número: "))
+numero2 = int(input("Inserte segundo número: "))
+
+Suma = numero1 + numero2
+Resta = numero1 - numero2
+Multiplicacion = numero1 * numero2
+Division = numero1 / numero2
+
+
+if operacion == "Suma":
+    print(Suma)
+    
+if operacion == "Resta":
+    print(Resta)
+
+if operacion == "Multiplicacion":
+   print(Multiplicación)
+
+if operacion == "Division":
+   print(División)
+
