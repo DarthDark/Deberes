@@ -5,8 +5,8 @@ print("Division")
 
 operacion = (input("Selecciona opción: "))
 
-numero1 = int(input("Inserte primer número: "))
-numero2 = int(input("Inserte segundo número: "))
+numero1 = float(input("Inserte primer número: "))
+numero2 = float(input("Inserte segundo número: "))
 
 Suma = numero1 + numero2
 Resta = numero1 - numero2
