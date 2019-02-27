@@ -21,8 +21,8 @@ if operacion == "Resta":
     print(Resta)
 
 if operacion == "Multiplicacion":
-   print(Multiplicación)
+   print(Multiplicacion)
 
 if operacion == "Division":
-   print(División)
+   print(Division)
 
