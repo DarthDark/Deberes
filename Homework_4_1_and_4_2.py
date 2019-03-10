@@ -7,7 +7,7 @@ secret = random.randint(1, 10)
 
 intentos = 0
 nombre = str(input("Escriba su nombre: "))
-
+print("Bienvenid@ " + nombre)
 with open("score2.txt", "r") as score:
     score_lista = json.loads(score.read())
     print("La lista es " + str(score_lista))
@@ -16,7 +16,6 @@ with open("score2.txt", "r") as score:
 while True:
 
     guess = int(input("Guess the secret number (between 1 and 30): "))
-             #print("Me alegro de conocerle: " + str(nombre)
     intentos = intentos + 1
     wrong_guesses = intentos -1
 
